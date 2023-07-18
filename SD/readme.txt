@@ -1,0 +1,2 @@
+in_swapper_128.onnx放入SD/model文件夹中
+account放入SD文件夹

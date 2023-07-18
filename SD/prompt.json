@@ -1,0 +1,439 @@
+{
+  "img2img_payload_1":
+  [
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, jae lee style, yoshitaka amano style, ink painting, black and white, art, abstract, expressionism, wu guanzhong style , manga, line art",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait , sky background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, suit, stage light , godfather , series man, premium lounge , noir",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, warrior, helmet, armored , battlefield background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, shikai makoto style, universe background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, van gogh style, impressionism , starry night",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, cyberpunk,",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                    "module": "depth_midas",
+                    "model": "control_v11f1p_sd15_depth",
+                    "weight": 0.66
+                },
+                {
+                    "module": "lineart_standard",
+                    "model": "control_v11p_sd15_lineart",
+                    "weight": 0.66
+                }
+            ]
+        }
+    }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, cyberpunk, exoskeleton, cyan, skyscraper background , white skin, hud glasses",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                    "module": "depth_midas",
+                    "model": "control_v11f1p_sd15_depth",
+                    "weight": 0.66
+                },
+                {
+                    "module": "lineart_standard",
+                    "model": "control_v11p_sd15_lineart",
+                    "weight": 0.66
+                }
+            ]
+        }
+    }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, fashion, harajuku, street, tattoo, sun glasses, street art",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "depth_midas",
+                        "model": "control_v11f1p_sd15_depth",
+                        "weight": 0.66
+                    },
+                    {
+                        "module": "lineart_standard",
+                        "model": "control_v11p_sd15_lineart",
+                        "weight": 0.66
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, vintage anime, kimono , 1960s , wabi sabi garden background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                    "module": "depth_midas",
+                    "model": "control_v11f1p_sd15_depth",
+                    "weight": 0.66
+                },
+                {
+                    "module": "lineart_standard",
+                    "model": "control_v11p_sd15_lineart",
+                    "weight": 0.66
+                }
+            ]
+        }
+    }
+    }
+  ],
+
+  "img2img_payload_2":
+  [
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, jae lee style, yoshitaka amano style, ink painting, black and white, art, abstract, expressionism, wu guanzhong style , manga, line art",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait , sky background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, suit, stage light , godfather , series man, premium lounge , noir",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, warrior, helmet, armored , battlefield background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, shikai makoto style, universe background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, van gogh style, impressionism , starry night",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, cyberpunk,",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                }
+            ]
+        }
+    }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, cyberpunk, exoskeleton, cyan, skyscraper background , white skin, hud glasses",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                }
+            ]
+        }
+    }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, fashion, harajuku, street, tattoo, sun glasses, street art",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+            "controlnet": {
+                "args": [
+                    {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+    "init_images": [],
+    "prompt": "(masterpiece), best quality, boy, (((handsome))), gorgeous, portrait, vintage anime, kimono , 1960s , wabi sabi garden background",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, mustache, EasyNegative , female, girl",
+    "steps": 28,
+    "sampler_name": "Euler a",
+    "denoising_strength": 0.88,
+    "alwayson_scripts": {
+        "controlnet": {
+            "args": [
+                {
+                        "module": "openpose_full",
+                        "model": "control_v11p_sd15_openpose",
+                        "weight": 1
+                }
+            ]
+        }
+    }
+    }
+  ]
+}
